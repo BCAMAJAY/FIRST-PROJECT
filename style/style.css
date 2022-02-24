@@ -1,0 +1,87 @@
+@keyframes changecolor
+{
+0%{background-color: white;}
+100%{width: 200px;}
+}
+body{
+    border-style: double;
+    background-color: cadetblue;
+    
+}
+span{
+    background-color: brown;
+}
+#button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 15px 20px 15px #999;
+}
+ul{
+  list-style-type: none;
+  font-size: 30px;
+  
+}
+.list{
+  float:left;
+  padding: 10px 15px;
+  transform: rotate(30deg);
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.topnav ul {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav li:hover {
+    background-color: black;
+    color: red;
+  }
+  
+  .topnav ul.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #overflow{
+    background-color: burlywood;
+    height: 300px;
+    width: 500px;
+    padding: 50px;
+    margin: 200px;
+    overflow: auto;
+  }
+  #text{
+    text-shadow: 30px -25px 20px red;
+    font-size: 100px;
+  }
+  .td{
+  border: black;
+  }
+  #base:hover{
+    width: 100px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .list:hover{
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    overflow: auto;
+  }
